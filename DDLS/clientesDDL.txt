@@ -1,0 +1,5 @@
+CREATE TABLE `tb_clientes` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `cliente_ativo` tinyint(1) DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci

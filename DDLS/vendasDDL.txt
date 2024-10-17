@@ -1,0 +1,6 @@
+CREATE TABLE `tb_vendas` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `data_venda` datetime DEFAULT CURRENT_TIMESTAMP,
+  `total` float(10,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci

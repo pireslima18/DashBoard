@@ -1,0 +1,6 @@
+CREATE TABLE `tb_despesas` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `data_despesa` datetime DEFAULT CURRENT_TIMESTAMP,
+  `total` float(10,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci
